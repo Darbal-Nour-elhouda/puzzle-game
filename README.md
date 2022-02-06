@@ -37,7 +37,7 @@
      <img src="image/*****.png">
    </p>
 
-  - ## [Steps to realise the project](#Steps to realise the project)
+  - ## [Steps to realise the project](#Steps-to-realise-the-project)
     - ### [the headers](#the-headers)
     - ### [the cpp](#the-cpp)
    
@@ -210,22 +210,22 @@ void BoardWidget::load_images(){
             img_path = ":/Images/orange";
             type = ".png";
             break;
-    case 7:
-        img_path = ":/Images/rupp";
-        type = ".png";
-        break;
-    case 8:
-        img_path = ":/Images/ited";
-        type = ".png";
-        break;
-    case 9:
-        img_path = ":/Images/tb";
-        type = ".png";
-        break;
-    case 10:
-        img_path = ":/Images/me";
-        type = ".png";
-        break;
+        case 7:
+            img_path = ":/Images/rupp";
+            type = ".png";
+            break;
+        case 8:
+            img_path = ":/Images/ited";
+            type = ".png";
+             break;
+        case 9:
+            img_path = ":/Images/tb";
+            type = ".png";
+            break;
+       case 10:
+            img_path = ":/Images/me";
+             type = ".png";
+              break;
     }
 
     switch(size){
@@ -476,7 +476,7 @@ void Widget::on_nexttogame_clicked()
 
 
 
-Our Team -[DARBAL nour-elhouda](https://github.com/teamkhaoulanour) -[MZOUDI Khaoula](https://github.com/KhaoulaMzoudi)
+Our Team -[DARBAL nour-elhouda](https://github.com/teamkhaoulanour) -[MZOUDI Khaoula](https://github.com/KhaoulaMzoudi) -[Kenza Youssi](https://github.com/)
 
 Project Link: [To Do](https://https://github.com/Darbal-Nour-elhouda/To-Do/new/main)
 
