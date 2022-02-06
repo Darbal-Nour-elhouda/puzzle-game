@@ -460,7 +460,7 @@ void Widget::on_nexttogame_clicked()
  ```
 
  - ## [Forms](#forms)
-    - ### [  our MainWindow ui](#oour-MainWindow-ui)
+    - ### [our MainWindow ui](#our-MainWindow-ui)
     
        
         
