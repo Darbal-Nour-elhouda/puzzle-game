@@ -459,14 +459,8 @@ void Widget::on_nexttogame_clicked()
 }
  
  ```
-
- - ## [Forms](#forms)
-    - ### [our MainWindow ui](#our-MainWindow-ui)
-    
-       
-        
-# Forms
- ##   our MainWindow ui
+ ## Forms
+  ### our MainWindow ui
  ```c++
  
  ```
