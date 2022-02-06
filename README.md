@@ -478,7 +478,7 @@ void Widget::on_nexttogame_clicked()
 
 Our Team -[DARBAL nour-elhouda](https://github.com/teamkhaoulanour) -[MZOUDI Khaoula](https://github.com/KhaoulaMzoudi) -[Kenza Youssi](https://github.com/)
 
-Project Link: [To Do](https://https://github.com/Darbal-Nour-elhouda/puzzle-game/edit/main/README.md)
+Project Link: [Puzzlz Game](https://https://github.com/Darbal-Nour-elhouda/puzzle-game/edit/main/README.md)
 
 Encadré par : [Mr.Belcaid Anass](https://)
 
