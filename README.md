@@ -28,12 +28,12 @@
 - # [Presentation of the project](#Presentation-of-the-project)
 
 ##  **In our Application we have :**
-  - push button <scramble>
+  - push button "scramble"
     <p align="center">
-     <img src="images/scramble.png">
+     <img src="images/scramble .png">
    </p>
 
-  - push button <reset>
+  - push button "reset"
     <p align="center">
      <img src="images/reset1.png">
    </p>
