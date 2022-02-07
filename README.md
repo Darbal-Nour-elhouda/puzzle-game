@@ -424,41 +424,38 @@ void PuzzleBoard::move_piece(int x, int y){
     ui->comboBox->setEnabled(true);
     ui->scramble_pushButton->setEnabled(true);
     setup_board();
-    m_puzzle_widget->lock_board(false);
-
-}
-
-void Widget::start(){
+    m_puzzle_widget->lock_board(false);}
+```
+```c++
+   void Widget::start(){
 
     ui->size_spinBox->setEnabled(false);
     ui->comboBox->setEnabled(false);
     ui->scramble_pushButton->setEnabled(false);
     ui->reset_pushButton->setEnabled(false);
-    m_puzzle_widget->lock_board(true);
-
-}
-
+    m_puzzle_widget->lock_board(true);}
+```
+```c++
 void Widget::scramble(){
 
     m_board->scramble_board_with_moves();
-    m_puzzle_widget->set_curr_board(this->m_board);
+    m_puzzle_widget->set_curr_board(this->m_board);}
+```
 
-}
-
+```c++
 void Widget::on_backfromselectpic_clicked()
 {
     int index = ui->stackedWidget->currentIndex();
-    ui->stackedWidget->setCurrentIndex(index-1);
-}
+    ui->stackedWidget->setCurrentIndex(index-1);}
+```
 
+```c++
 void Widget::on_nexttogame_clicked()
 {
     int index = ui->stackedWidget->currentIndex();
     ui->stackedWidget->setCurrentIndex(index+1);
-    reset();
-}
- 
- ```
+    reset();}
+  ```
  
  
 
