@@ -34,7 +34,7 @@
  
 ## **the application looks like that :**
 <p align="center">
-     <img src="image/green 1.png">
+     <img src="images/green 1.png">
    </p>
 
   - ## [Steps to realise the project](#Steps-to-realise-the-project)
