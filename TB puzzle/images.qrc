@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/Back button white.png</file>
+        <file>Images/Title Black.png</file>
+        <file>Images/Icon.png</file>
+        <file>Images/Messaging-Question-icon.png</file>
+        <file>Images/awesome3x3.jpg</file>
+        <file>Images/awesome4x4.jpg</file>
+        <file>Images/awesome5x5.jpg</file>
+        <file>Images/classic4x4.png</file>
+        <file>Images/gray4x4.png</file>
+        <file>Images/orange4x4.png</file>
+        <file>Images/rage3x3.jpg</file>
+        <file>Images/rage4x4.jpg</file>
+        <file>Images/rage5x5.jpg</file>
+        <file>Images/red4x4.jpg</file>
+        <file>Images/troll_face3x3.png</file>
+        <file>Images/troll_face4x4.png</file>
+        <file>Images/troll_face5x5.png</file>
+        <file>Images/Next button white.png</file>
+        <file>Images/ited3x3.png</file>
+        <file>Images/ited4x4.png</file>
+        <file>Images/ited5x5.png</file>
+        <file>Images/me3x3.png</file>
+        <file>Images/me4x4.png</file>
+        <file>Images/me5x5.png</file>
+        <file>Images/rupp3x3.png</file>
+        <file>Images/rupp4x4.png</file>
+        <file>Images/rupp5x5.png</file>
+        <file>Images/tb3x3.png</file>
+        <file>Images/tb4x4.png</file>
+        <file>Images/tb5x5.png</file>
+        <file>Images/Styled blue background.jpg</file>
+    </qresource>
+</RCC>
