@@ -459,7 +459,7 @@ void Widget::on_nexttogame_clicked()
     reset();}
   ```
   ## the form:
-   ## our Maiwindow GUI
+   #### our Maiwindow GUI
  
     <div align="center">
     <img src="image/gui.png" alt="Logo" width="500" height="400">
