@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="image/game.png" alt="Logo" width="500" height="400">
+    <img src="images/game.png" alt="Logo" width="500" height="400">
   
 </div>
 
@@ -461,8 +461,10 @@ void Widget::on_nexttogame_clicked()
   ## the form:
    #### our Maiwindow GUI
  
-    <div align="center">
-    <img src="image/gui.png" alt="Logo" width="500" height="400">
+    <p align="center">
+     <img src="images/gui.png">
+   </p>
+
   
  
 
