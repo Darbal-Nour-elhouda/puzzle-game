@@ -28,11 +28,30 @@
 - # [Presentation of the project](#Presentation-of-the-project)
 
 ##  **In our Application we have :**
+  - push button <scramble>
+    <p align="center">
+     <img src="images/scramble.png">
+   </p>
 
+  - push button <reset>
+    <p align="center">
+     <img src="images/reset1.png">
+   </p>
 
+  - spin box of levels
+    <p align="center">
+     <img src="images/spin.png">
+   </p>
+
+  - the form with image of number
+    <p align="center">
+     <img src="images/1.png">
+   </p>
+    
+    
  
  
-## **the application looks like that :**
+## **the game looks like that :**
 <p align="center">
      <img src="images/green 1.png">
    </p>
