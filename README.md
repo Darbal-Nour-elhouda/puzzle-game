@@ -54,7 +54,7 @@
 ## **the game looks like that :**
 <p align="center">
      <img src="images/green 1.png">
-   </p>
+    </p>
 
   - ## [Steps to realise the project](#Steps-to-realise-the-project)
     - ### [the headers](#the-headers)
