@@ -3,10 +3,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-    <img src="images/game.png" alt="Logo" width="500" height="400">
-  
-</div>
+<p align="center"> <img width="635" alt="Screen Shot 2022-02-07 at 15 54 01" src="https://user-images.githubusercontent.com/94130783/152813128-d806db39-aade-4060-b6f4-aecb1f7f405e.png"> </p>
 
 
 
@@ -14,46 +11,78 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#Presentation-of-the-project">Presentation of the project</a></li>
+        <li><a href="#About-Qt:">About Qt:</a></li>
+        <li><a href="#Presentation-of-the-project:">Presentation of the project:</a></li>
         <li><a href="#Steps-to-realise-the-project">Steps to realise the project</a></li>
         <li><a href="#conclusion">Conclusion</a></li>
         
   </ol>
 </details>
 
-- # [Introduction](#Introduction)
- Qt provides widjet and console application programming, wich facilitate the conception of multiple concepts of applications. We will foucus on our work on QtWidjet class and it elements
+- # About Qt:
+  Qt is a software library essentially offering graphical interface components (widgets), but also components for data access, network connections, thread management, XML analysis, etc.It was developed from C++ by the Trolltech company and is available for <b> Unix environments </b> using X11 including <b>Linux</b>, <b>Windows </b> and <b>Mac OS </b>.
+Qt uses an extended version of the C++ language.Bindings exist in order to be able to use Qt from other languages: <b> Python, Ruby, C language, Perl language and Pascal </b>.Furthermore provides widjet and console application programming, wich facilitate the conception of multiple concepts of applications. We will foucus on our work on QtWidjet class and it elements.
  
-- # [Presentation of the project](#Presentation-of-the-project)
+- # [Presentation of the project:](#Presentation-of-the-project:)
 
-##  **In our Application we have :**
-  - push button "scramble"
+    After working on different projects and realizing different interfaces,time has come to group all our knowlege and realise our own application. For our final project, we choose the famous <b> Classical number game </b>. The game is about arranging numbers which are in a mess on a grid. This last takes the form of a marix that could be <b> 3x3 </b>,<b> 4x4 </b> or more, depending on the user's desire. Also,the grid can be also composed by an image with same previous caracteristicts.
+    
+   <p align="center"> <img width="680" alt="Screen Shot 2022-02-07 at 18 17 03" src="https://user-images.githubusercontent.com/94130783/152838408-6d3c25e4-df64-4444-8a14-d327888b7517.png"> </p>
+    
+<p align="center"> <b> Number puzzle grid </b> </p>
+
+<p align="center"> <img width="410" alt="Screen Shot 2022-02-07 at 17 59 07" src="https://user-images.githubusercontent.com/94130783/152838502-68d55239-a735-4c63-b567-6e99c64a0baa.png"> </p>
+
+<p align="center"> <b> Image puzzle grid </b> </p>
+
+# Steps to realise the project:
+<p> Starting the conception of our application, we noticed that we couldn't realize the resolution of the puzzle, but only the conception.On the following lines,we will present the main elements that we will need. </p>
+
+ - <b> the main form: </b>
+  The constitution of the main widejet will necessite a main picture,in our case we will take a number grid.
+  
+<p align="center"> <img width="254" alt="Screen Shot 2022-02-07 at 21 11 16" src="https://user-images.githubusercontent.com/94130783/152874082-dac1de7a-5ad0-491b-959f-accaf8b364e2.png"> </p>
+
+ 
+ The next step is to place each number on it suitable place on the way to make it possible to move.For that, we will firstly devide the picture so that each number will be placed on a label.Here is an example:
+ 
+  <p align="center"> <img width="124" alt="Screen Shot 2022-02-07 at 22 19 24" src="https://user-images.githubusercontent.com/94130783/152873929-c434b38e-cbe4-43ca-ab5b-f441af936a6f.png"> </p> 
+
+    
+  <p align="center"> <img width="126" alt="Screen Shot 2022-02-07 at 21 26 30" src="https://user-images.githubusercontent.com/94130783/152866355-41f22a71-bb2d-44f9-83f0-fa4b79aa76ab.png">
+ </p>
+
+After placing all the numbers,we will place them all on a grid layout,the main widjet of our layout. The final window of our project could be shown as follow:
+<p align="center"> <img width="369" alt="Screen Shot 2022-02-07 at 21 31 41" src="https://user-images.githubusercontent.com/94130783/152867154-3ce2df77-4285-42f8-995d-06decbd6cb45.png"> </p>
+
+  - <b> Scramble button: </b>
+  This button will permit the widjet to mix up the labels so that they can change their position.
+  
     <p align="center">
      <img src="images/scramble .png">
    </p>
+   
+   <p align="center"> <img width="207" alt="Screen Shot 2022-02-07 at 21 40 27" src="https://user-images.githubusercontent.com/94130783/152868548-16169096-e808-457b-b5c6-fd2b47de75a4.png">
+ </p>
+ 
+ > <b>On our project,we couldn't realize connections to make the scrumble action. </b>
 
-  - push button "reset"
+  - <b> Reset push button: </b>
+  
+ After scrambling the buttons,the user can reset the image by clicking on that button 
     <p align="center">
      <img src="images/reset1.png">
    </p>
 
-  - spin box of levels
+  - <b> Spin box of levels:</b> 
     <p align="center">
+    The level box permit to the user to choose the level of difficulty of the resolution of the puzzle.For our case, it's from 1 to 4.
      <img src="images/spin.png">
    </p>
-
-  - the form with image of number
-    <p align="center">
-     <img src="images/1.png">
-   </p>
-    
-    
- 
  
 ## **the game looks like that :**
 <p align="center">
-     <img src="images/green 1.png">
+     <img width="491" alt="Screen Shot 2022-02-07 at 22 29 01" src="https://user-images.githubusercontent.com/94130783/152875041-72d541bc-42ae-4eb7-bd6b-7ab4f0800e09.png">
     </p>
 
   - ## [Steps to realise the project](#Steps-to-realise-the-project)
@@ -486,12 +515,18 @@ void Widget::on_nexttogame_clicked()
   
 </div>
 
-  
- 
 
- 
- 
+## Conclusion:
 
+<div>
+   <p> Finally came our point of vue about this experience.The game wasn't easy to be programmed,espeacially the connexions.Even if the concept was understood,the makinng was quite hard.We made all of effort to make a good project.</p>
+ </div>  
+   
+   
+   
+   
+   
+   
 
 
 Our Team -[DARBAL nour-elhouda](https://github.com/teamkhaoulanour) -[MZOUDI Khaoula](https://github.com/KhaoulaMzoudi) -[Kenza Youssi](https://github.com/)
