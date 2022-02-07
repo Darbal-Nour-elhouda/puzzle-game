@@ -154,7 +154,7 @@ private:
 };
 
  ``` 
-##  the Cpp
+##  the cpp
   ### board widget.cpp
   #### Functions
 
@@ -461,10 +461,11 @@ void Widget::on_nexttogame_clicked()
   ## the form:
    #### our Maiwindow GUI
  
-    <div align="center">
+    <br />
+<div align="center">
     <img src="images/gui.png" alt="Logo" width="500" height="400">
   
-    </div>
+</div>
 
   
  
