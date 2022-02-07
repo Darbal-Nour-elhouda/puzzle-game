@@ -418,6 +418,7 @@ void PuzzleBoard::move_piece(int x, int y){
   ## widget.h
    #### Functions
     ```c++
+    
     void Widget::reset(){
 
     ui->size_spinBox->setEnabled(true);
@@ -427,6 +428,7 @@ void PuzzleBoard::move_piece(int x, int y){
     m_puzzle_widget->lock_board(false);}
 ```
 ```c++
+
    void Widget::start(){
 
     ui->size_spinBox->setEnabled(false);
@@ -456,7 +458,12 @@ void Widget::on_nexttogame_clicked()
     ui->stackedWidget->setCurrentIndex(index+1);
     reset();}
   ```
+  ## the form:
+   ## our Maiwindow GUI
  
+    <div align="center">
+    <img src="image/gui.png" alt="Logo" width="500" height="400">
+  
  
 
  
